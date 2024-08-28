@@ -1,0 +1,53 @@
+@media screen and (min-width: 769px) {
+    .primer-titulo {
+        font-family: $roboto;
+        font-weight: $semibold;
+        font-style: normal;
+    }
+    
+    .segundo-titulo {
+        font-family: $roboto;
+        font-weight: $light-300;
+        font-style: normal;
+    }
+    
+    .p-texto-productos {
+        font-family: $roboto;
+        font-weight: $semibold;
+        font-style: normal;
+        text-align: center;
+    }
+    
+    .p-texto {
+        margin: 20px 150px;
+        font-family: $roboto;
+        font-weight: $regular;
+        font-style: normal;
+    }
+    
+    .mapa-trabajo {
+        text-align: left;
+        background: $eerie-black;
+        color: $white;
+        padding: 50px;
+        white-space: normal;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .primer-titulo {
+        font-family: $roboto;
+        font-weight: $semibold;
+        font-style: normal;
+        font-size: 15px;
+    }
+
+    .p-texto {
+        margin: 20px 25px;
+        font-family: $roboto;
+        font-weight: $regular;
+        font-style: normal;
+    }
+
+}

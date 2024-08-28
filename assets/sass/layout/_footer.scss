@@ -1,0 +1,32 @@
+@media screen and (min-width: 769px) {
+
+footer {
+    padding: 30px;
+}
+
+.texto-footer {
+    padding: 45px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    
+footer {
+    padding: 30px;
+}
+
+.texto-footer {
+    padding: 45px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+}

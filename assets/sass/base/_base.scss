@@ -1,0 +1,149 @@
+@media screen and (min-width: 769px) {
+.fondo-1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: #e8e8e8;
+    padding: 20px 10px 10px 10px;
+}
+
+.mapa-trabajo {
+    text-align: left;
+    background: $eerie-black;
+    color: $white;
+    padding: 50px;
+    white-space: normal;
+}
+
+.mapa-dos-columnas {
+    display: flex;
+    gap: 100px;
+}
+
+.mapa-chico {
+    width: 30%;
+}
+
+.texto-mapa {
+    padding: 30px 100px 0px 0px;
+    font-family: $roboto;
+    font-weight: $light-300;
+    font-style: normal;
+    text-align: left;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+a {
+    color:$white;
+}
+
+a:hover {
+    color: $eerie-black;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.flexbox2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.img-width {
+    width: 60%;
+}
+
+.img-mapa {
+    width: 100rem;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+.fondo-1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: $piel;
+    padding: 20px 10px 10px 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mapa-dos-columnas {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mapa-chico {
+    width: 100%;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.flexbox2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.imagen-sobremi {
+    width: 400px;
+}
+
+a {
+    color: $white;
+}
+
+.img-width {
+    width: 90%;
+}
+
+.img-mapa {
+    width: 25rem;
+}
+
+.oscuro {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.text-margin-mob {
+    text-align: center;
+    margin: 30px;
+}
+
+}
